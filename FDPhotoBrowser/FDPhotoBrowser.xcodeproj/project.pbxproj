@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA8AD98A1B53C1E6007802CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8AD9891B53C1E6007802CF /* main.m */; };
+		EA8AD98D1B53C1E6007802CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8AD98C1B53C1E6007802CF /* AppDelegate.m */; };
+		EA8AD9901B53C1E6007802CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8AD98F1B53C1E6007802CF /* ViewController.m */; };
+		EA8AD9951B53C1E6007802CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA8AD9941B53C1E6007802CF /* Images.xcassets */; };
+		EA8AD9981B53C1E6007802CF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA8AD9961B53C1E6007802CF /* LaunchScreen.xib */; };
+		EA8AD9A41B53C1E6007802CF /* FDPhotoBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8AD9A31B53C1E6007802CF /* FDPhotoBrowserTests.m */; };
+		EA8AD9AF1B53C28F007802CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA8AD9AD1B53C28F007802CF /* Main.storyboard */; };
+		EA8AD9BB1B53C2A5007802CF /* FDPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8AD9B21B53C2A5007802CF /* FDPhotoCollectionViewCell.m */; };
+		EA8AD9BC1B53C2A5007802CF /* FDPhotoGroupCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8AD9B41B53C2A5007802CF /* FDPhotoGroupCollectionViewCell.m */; };
+		EA8AD9BD1B53C2A5007802CF /* FDPhotoGroupsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8AD9B61B53C2A5007802CF /* FDPhotoGroupsCollectionViewController.m */; };
+		EA8AD9BE1B53C2A5007802CF /* FDPhotosCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8AD9B81B53C2A5007802CF /* FDPhotosCollectionViewController.m */; };
+		EA8AD9BF1B53C2A5007802CF /* FDPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8AD9BA1B53C2A5007802CF /* FDPhotoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA8AD99E1B53C1E6007802CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA8AD97C1B53C1E6007802CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA8AD9831B53C1E6007802CF;
+			remoteInfo = FDPhotoBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA8AD9841B53C1E6007802CF /* FDPhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDPhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8AD9881B53C1E6007802CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA8AD9891B53C1E6007802CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA8AD98B1B53C1E6007802CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA8AD98C1B53C1E6007802CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA8AD98E1B53C1E6007802CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA8AD98F1B53C1E6007802CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA8AD9941B53C1E6007802CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA8AD9971B53C1E6007802CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EA8AD99D1B53C1E6007802CF /* FDPhotoBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDPhotoBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8AD9A21B53C1E6007802CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA8AD9A31B53C1E6007802CF /* FDPhotoBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDPhotoBrowserTests.m; sourceTree = "<group>"; };
+		EA8AD9AE1B53C28F007802CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA8AD9B11B53C2A5007802CF /* FDPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		EA8AD9B21B53C2A5007802CF /* FDPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDPhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		EA8AD9B31B53C2A5007802CF /* FDPhotoGroupCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDPhotoGroupCollectionViewCell.h; sourceTree = "<group>"; };
+		EA8AD9B41B53C2A5007802CF /* FDPhotoGroupCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDPhotoGroupCollectionViewCell.m; sourceTree = "<group>"; };
+		EA8AD9B51B53C2A5007802CF /* FDPhotoGroupsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDPhotoGroupsCollectionViewController.h; sourceTree = "<group>"; };
+		EA8AD9B61B53C2A5007802CF /* FDPhotoGroupsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDPhotoGroupsCollectionViewController.m; sourceTree = "<group>"; };
+		EA8AD9B71B53C2A5007802CF /* FDPhotosCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDPhotosCollectionViewController.h; sourceTree = "<group>"; };
+		EA8AD9B81B53C2A5007802CF /* FDPhotosCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDPhotosCollectionViewController.m; sourceTree = "<group>"; };
+		EA8AD9B91B53C2A5007802CF /* FDPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDPhotoViewController.h; sourceTree = "<group>"; };
+		EA8AD9BA1B53C2A5007802CF /* FDPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDPhotoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA8AD9811B53C1E6007802CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8AD99A1B53C1E6007802CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA8AD97B1B53C1E5007802CF = {
+			isa = PBXGroup;
+			children = (
+				EA8AD9861B53C1E6007802CF /* FDPhotoBrowser */,
+				EA8AD9A01B53C1E6007802CF /* FDPhotoBrowserTests */,
+				EA8AD9851B53C1E6007802CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA8AD9851B53C1E6007802CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA8AD9841B53C1E6007802CF /* FDPhotoBrowser.app */,
+				EA8AD99D1B53C1E6007802CF /* FDPhotoBrowserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA8AD9861B53C1E6007802CF /* FDPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				EA8AD98B1B53C1E6007802CF /* AppDelegate.h */,
+				EA8AD98C1B53C1E6007802CF /* AppDelegate.m */,
+				EA8AD98E1B53C1E6007802CF /* ViewController.h */,
+				EA8AD98F1B53C1E6007802CF /* ViewController.m */,
+				EA8AD9B01B53C2A5007802CF /* PhotoBrowser */,
+				EA8AD9941B53C1E6007802CF /* Images.xcassets */,
+				EA8AD9961B53C1E6007802CF /* LaunchScreen.xib */,
+				EA8AD9AD1B53C28F007802CF /* Main.storyboard */,
+				EA8AD9871B53C1E6007802CF /* Supporting Files */,
+			);
+			path = FDPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		EA8AD9871B53C1E6007802CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA8AD9881B53C1E6007802CF /* Info.plist */,
+				EA8AD9891B53C1E6007802CF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA8AD9A01B53C1E6007802CF /* FDPhotoBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA8AD9A31B53C1E6007802CF /* FDPhotoBrowserTests.m */,
+				EA8AD9A11B53C1E6007802CF /* Supporting Files */,
+			);
+			path = FDPhotoBrowserTests;
+			sourceTree = "<group>";
+		};
+		EA8AD9A11B53C1E6007802CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA8AD9A21B53C1E6007802CF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA8AD9B01B53C2A5007802CF /* PhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				EA8AD9B51B53C2A5007802CF /* FDPhotoGroupsCollectionViewController.h */,
+				EA8AD9B61B53C2A5007802CF /* FDPhotoGroupsCollectionViewController.m */,
+				EA8AD9B71B53C2A5007802CF /* FDPhotosCollectionViewController.h */,
+				EA8AD9B81B53C2A5007802CF /* FDPhotosCollectionViewController.m */,
+				EA8AD9B91B53C2A5007802CF /* FDPhotoViewController.h */,
+				EA8AD9BA1B53C2A5007802CF /* FDPhotoViewController.m */,
+				EA8AD9B11B53C2A5007802CF /* FDPhotoCollectionViewCell.h */,
+				EA8AD9B21B53C2A5007802CF /* FDPhotoCollectionViewCell.m */,
+				EA8AD9B31B53C2A5007802CF /* FDPhotoGroupCollectionViewCell.h */,
+				EA8AD9B41B53C2A5007802CF /* FDPhotoGroupCollectionViewCell.m */,
+			);
+			path = PhotoBrowser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA8AD9831B53C1E6007802CF /* FDPhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA8AD9A71B53C1E6007802CF /* Build configuration list for PBXNativeTarget "FDPhotoBrowser" */;
+			buildPhases = (
+				EA8AD9801B53C1E6007802CF /* Sources */,
+				EA8AD9811B53C1E6007802CF /* Frameworks */,
+				EA8AD9821B53C1E6007802CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FDPhotoBrowser;
+			productName = FDPhotoBrowser;
+			productReference = EA8AD9841B53C1E6007802CF /* FDPhotoBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA8AD99C1B53C1E6007802CF /* FDPhotoBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA8AD9AA1B53C1E6007802CF /* Build configuration list for PBXNativeTarget "FDPhotoBrowserTests" */;
+			buildPhases = (
+				EA8AD9991B53C1E6007802CF /* Sources */,
+				EA8AD99A1B53C1E6007802CF /* Frameworks */,
+				EA8AD99B1B53C1E6007802CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA8AD99F1B53C1E6007802CF /* PBXTargetDependency */,
+			);
+			name = FDPhotoBrowserTests;
+			productName = FDPhotoBrowserTests;
+			productReference = EA8AD99D1B53C1E6007802CF /* FDPhotoBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA8AD97C1B53C1E6007802CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = fergusding;
+				TargetAttributes = {
+					EA8AD9831B53C1E6007802CF = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					EA8AD99C1B53C1E6007802CF = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = EA8AD9831B53C1E6007802CF;
+					};
+				};
+			};
+			buildConfigurationList = EA8AD97F1B53C1E6007802CF /* Build configuration list for PBXProject "FDPhotoBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA8AD97B1B53C1E5007802CF;
+			productRefGroup = EA8AD9851B53C1E6007802CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA8AD9831B53C1E6007802CF /* FDPhotoBrowser */,
+				EA8AD99C1B53C1E6007802CF /* FDPhotoBrowserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA8AD9821B53C1E6007802CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8AD9AF1B53C28F007802CF /* Main.storyboard in Resources */,
+				EA8AD9981B53C1E6007802CF /* LaunchScreen.xib in Resources */,
+				EA8AD9951B53C1E6007802CF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8AD99B1B53C1E6007802CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA8AD9801B53C1E6007802CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8AD9901B53C1E6007802CF /* ViewController.m in Sources */,
+				EA8AD9BD1B53C2A5007802CF /* FDPhotoGroupsCollectionViewController.m in Sources */,
+				EA8AD9BC1B53C2A5007802CF /* FDPhotoGroupCollectionViewCell.m in Sources */,
+				EA8AD9BB1B53C2A5007802CF /* FDPhotoCollectionViewCell.m in Sources */,
+				EA8AD98D1B53C1E6007802CF /* AppDelegate.m in Sources */,
+				EA8AD9BF1B53C2A5007802CF /* FDPhotoViewController.m in Sources */,
+				EA8AD9BE1B53C2A5007802CF /* FDPhotosCollectionViewController.m in Sources */,
+				EA8AD98A1B53C1E6007802CF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8AD9991B53C1E6007802CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8AD9A41B53C1E6007802CF /* FDPhotoBrowserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA8AD99F1B53C1E6007802CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA8AD9831B53C1E6007802CF /* FDPhotoBrowser */;
+			targetProxy = EA8AD99E1B53C1E6007802CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA8AD9961B53C1E6007802CF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA8AD9971B53C1E6007802CF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		EA8AD9AD1B53C28F007802CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA8AD9AE1B53C28F007802CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA8AD9A51B53C1E6007802CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA8AD9A61B53C1E6007802CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA8AD9A81B53C1E6007802CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FDPhotoBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA8AD9A91B53C1E6007802CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FDPhotoBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA8AD9AB1B53C1E6007802CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FDPhotoBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FDPhotoBrowser.app/FDPhotoBrowser";
+			};
+			name = Debug;
+		};
+		EA8AD9AC1B53C1E6007802CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FDPhotoBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FDPhotoBrowser.app/FDPhotoBrowser";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA8AD97F1B53C1E6007802CF /* Build configuration list for PBXProject "FDPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8AD9A51B53C1E6007802CF /* Debug */,
+				EA8AD9A61B53C1E6007802CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA8AD9A71B53C1E6007802CF /* Build configuration list for PBXNativeTarget "FDPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8AD9A81B53C1E6007802CF /* Debug */,
+				EA8AD9A91B53C1E6007802CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA8AD9AA1B53C1E6007802CF /* Build configuration list for PBXNativeTarget "FDPhotoBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8AD9AB1B53C1E6007802CF /* Debug */,
+				EA8AD9AC1B53C1E6007802CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA8AD97C1B53C1E6007802CF /* Project object */;
+}
